@@ -1,0 +1,119 @@
+.seventh-main-container{
+    width: 100%;
+    height: 110vh;
+    padding: 50px 150px;
+
+
+}
+.seventh-main-container h3{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 1.7em;
+    font-weight: 600;
+}
+.article-all-content{
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    height:100%;
+    
+    
+    
+}
+.article-content1{
+    background-image: url(../assets/sofa1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height:80%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-left:20px;
+    flex-direction: column;
+    border-radius: 10px;
+    color:white;
+
+    
+
+}
+.article-content1,.article-content2,.article-content3,.article-content4 h4{
+    text-shadow: 2px 2px 2px black;
+}
+
+.furniture-tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    background-color: white;
+    padding:3px 8px;
+    border-radius:5px;
+    color:#7AC751;
+    text-shadow: none;
+}
+
+.furniture-tag span{
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.article-read-more {
+    text-shadow: 2px 2px 2px black;
+    font-size: 12px;
+}
+.article-content2{
+    background-image: url(../assets/sofa2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height:80%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-left:20px;
+    flex-direction: column;
+    border-radius: 10px;
+    color:white;
+
+   
+}
+.article-content3{
+    background-image: url(../assets/furniture2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height:80%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    border-radius: 10px;
+    color:white;
+    padding-left:20px;
+
+
+
+   
+}
+.article-content4{
+    background-image: url(../assets/sofa3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height:80%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    border-radius: 10px;
+    color:white;
+    padding-left:20px;
+
+   
+}

@@ -1,0 +1,157 @@
+.fifth-page-main-container{
+    width:100%;
+    height:130vh;
+    padding:0px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.fifth-page-main-container h2{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 1.7em;
+    font-weight: 600;
+}
+
+.fifth-page-main-container ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    padding-bottom: 40px;
+}
+.fifth-page-main-container ul li:hover{
+    color:#7AC751;
+}
+.map-images{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.image-content-hover{
+    position: relative;
+}
+.image-content-hover:hover .hover-wishlist{
+
+    display: block;
+}
+
+.fifth-page-images{
+    width:200px;
+    height:200px;
+    background-color: rgb(245, 245, 245);
+    padding:20px;
+    padding-right:30px;
+}
+.fifth-page-images:hover{
+    background-color: rgb(224, 223, 229);
+}
+.hover-wishlist{
+    height:100%;
+    position:absolute;
+    top:0;
+    right:10px;
+    display: none;
+    padding-top:10px;
+
+}
+
+
+
+.hover-wishlist .wishlist{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    background-color: white;
+    padding:7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    
+   
+}
+.hover-wishlist .wishlist:hover{
+    background-color: rgb(224, 223, 229);
+   
+}
+.fifth-image-content p,h3,span{
+    margin-bottom:5px;
+}
+.fifth-image-content p{
+    font-size: 1em;
+    font-weight: bold;
+}
+.fifth-image-content h3{
+    font-size: 1.1em;
+}
+.fifth-image-content .old-price{
+    color:rgb(204, 204, 204);
+    margin-left:5px;
+}
+.image-container .price{
+    color: #7AC751;
+    font-weight: bold;
+
+}
+.next-page-container{
+    width:100%;
+    height: 40px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:70px;
+    margin-top: 20px;
+}
+
+.page-btn{
+    background-color: rgb(122, 199, 81);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+.page-btn:hover{
+    background-color: rgb(97, 158, 69);
+}
+.page-count{
+    color: rgb(122, 199, 81);
+    font-weight: bold;
+    margin-top:20px;
+    font-size: 1em;
+}
+.page-count button{
+    padding:5px 10px;
+    margin-left:5px;
+    margin-right:5px;
+}
+.slide-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slide-buttons button{
+    background-color: rgb(122, 199, 81);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    
+
+}
+.slide-buttons button:hover{
+    background-color: rgb(97, 158, 69);
+}
